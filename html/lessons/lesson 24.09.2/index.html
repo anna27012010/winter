@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charser="UTF-8">
+    <title> Задание 3 </title>
+    <style>
+        ol {
+        list-style: none;
+        counter-reset: li;
+        }
+        ol li::before {
+           counter-increment: li;
+           content: counters(li,".");"border: ;" 
+        }
+
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>Процессор</li>
+        <li>Память</li>
+        <ol>
+            <li>Оперативная память</li>
+            <li>Долговременная память</li>
+            <ol>
+                <li>Жесткий магнитный диск</li>
+                <li>Флэш-память</li>
+                <li>Оптические диски</li>
+                <ol>
+                    <li> SD</li>
+                    <li>DVD</li>
+                    <li>Blue-ray Disc 3</li>
+                </ol>
+            </ol>
+            </ol>
+        <li>Устройство ввода</li>
+        <ol>
+            <li>Клавиатура</li>
+            <li>Мышь</li>
+            <li>Сканер</li>
+            <li>Графический планщет</li>
+            <li>Цифровая камера</li>
+            <li>Микрофон</li>
+            <li>Джостик</li>
+         </ol>
+        <li>Устроиство вывода</li>
+        <ol>
+            <li>Монитор</li>
+            <ol>
+                <li>Жидкокристалический Монитор</li>
+                <li>Монитор на электронно-лучевой трубке</li>
+            </ol>
+            <li>Принтер</li>
+            <ol>
+                <li>Струйный принтер</li>
+                <li>Лазерный принтер</li>
+            </ol>
+            <li>Проектор</li>
+        </ol>
+       </ol>
+</body>
