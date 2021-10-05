@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charser="UTF-8">
+    <title> Формы </title>
+</head>
+<body>
+<form name="my-form">
+  <fieldset>
+<legend><h2>Параметры автомобиля</h2></legend>
+    <p>
+    <label>
+      Марка автомобиля:
+    <input type="text" name="user1">
+    </label>
+    </p>
+    <p>
+        <label>
+          Обьём двигателя, см<sup>3</sup>
+        <input type="text" name="user1" value="1900">
+        </label>
+        </p>
+<p>
+    <label for="select-oblast">Область</label>
+    <select name="oblast" id="select-oblast">
+        <option value="Бресткая">Бресткая</option>
+        <option value="Гомельская">Гомельская</option>
+        <option value="Могилевская">Могилевская</option>
+        <option value="Витебская">Витебская</option>
+        <option value="Гродненская">Гродненская</option>
+        <option value="Минская">Минская</option>
+    </select> 
+</p>
+<p>
+        </label>
+            Тип КПП
+        </label>
+</p>
+            <label>
+                <input type="radio" name="avt" value="Автомат"> 
+                 Автомат
+            </label>
+            </p>
+            <p>
+                <label>
+                <input type="radio" name="mex" value="Механика">
+                Механика
+            </label>
+            </p>
+            <p>
+            </label>
+            Двигатель
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="checkbox" name="ele" value="Электро"> 
+                    электро
+            </label>
+            </p>
+            <p>
+                <label>
+                <input type="checkbox" name="diz" value="Дизель">
+                Дизель
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="checkbox" name="benz" value="Бензин">
+                Бензин
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="checkbox" name="pro" value="Пропан-бутан">
+                Пропан-бутан
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="checkbox" name="met" value="Метан">
+                Метан
+            </label>
+            </p>
+        <p>
+        <label> Описание</label>
+        </p>
+        <p>
+            <textarea id="textarea" name="description"cols="25" rows="10"> </textarea>
+        </p>
+        <p>
+            <input type="submit"value="Отправить">
+            <input type="submit" value="Очистить">
+        </p>
+        </fieldset>
+        </form>
+        </body>

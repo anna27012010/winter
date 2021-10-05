@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charser="UTF-8">
+    <title> Формы </title>
+</head>
+<body>
+<form name="my-form">
+  <fieldset>
+<legend>Регистрационная форма пользователя</legend>
+    <p>
+    <label>
+      Имя 
+    <input type="text" name="userName">
+    </label>
+    </p>
+<p>
+    <label for="select-age"> Укажите возраст</label>
+    <select name="age" id="select-age">
+        <option value="10-15">10-15 лет</option>
+        <option value="15-20">15-20 лет</option>
+        <option value="20-30">20-30 лет</option>
+        <option value="30-40">30-40 лет</option>
+        <option value="40">Старше 40 лет</option>
+    </select> 
+    <p>
+    </label>
+        Укажите пол:
+    </label>
+        <label>
+            <input type="radio" name="men" value="мужской"> 
+                мужской
+        </label>
+            <label>
+            <input type="radio" name="women" value="женский">
+            женский
+        </label>
+    </p>
+</p>
+<label for="select-country">Страна проживания</label>
+<select name="country" id="select-country">
+    <option value="Баларусь">Баларусь</option>
+    <option value="Российская Федерация">Российская Федерация</option>
+    <option value="Другое государство">Другое государство</option>
+    </select> 
+<p>
+</label>
+Владение языками:
+</label>
+<label>
+    <input type="checkbox" name="rus" value="русский"> 
+        русский
+</label>
+    <label>
+    <input type="checkbox" name="bel" value="белорусский">
+    белорусский
+</label>
+<label>
+    <input type="checkbox" name="eng" value="английский">
+    английский
+</label>
+</p>
+<p>
+    <label>
+        Фото профиля: 
+    </label>
+    <label>
+    <input type="file", value="Обзор" accept="jpg,doc" multiple> 
+    </label>
+</p>
+<p>
+    Введите логин:
+    <input name="login">
+</p>
+<p>
+    Введите пароль:
+    <input type="password" name="pass">
+</p>
+<p>
+    Повторите пароль:
+    <input type="password" name="pass">
+</p>
+<p>
+    <input type="submit"value="Сброс">
+    <input type="submit" value="Отправить">
+</p>
+</fieldset>
+</form>
